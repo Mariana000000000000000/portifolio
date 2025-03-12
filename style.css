@@ -3,5 +3,9 @@ header{
     display: flex;
     background-color: #AC1754;
  width: 80%;
- padding: 1 rem;
+ padding: 1rem;
+}
+ 
+body{
+    background-color: #AC1754;
 }
