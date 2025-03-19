@@ -14,3 +14,8 @@ position: relative;
 justify-content: center;
 
 }
+
+.menu-displina{
+    width: 20%;
+    display: inline-block;
+}
