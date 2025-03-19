@@ -15,12 +15,13 @@ header
 
 img.parte-azul {
     width: 99%;
-    background-color: #f17dad;
+   
 }
 
 .imagem-perfil {
     display: inline-block;
     margin: -14px 36px;
+    background-color: #f17dad;
 }
 
 .texto-1 {
