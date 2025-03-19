@@ -9,11 +9,12 @@
 
 .parte-azul {
     margin: 4px 6px;
-    background-color: #f17dad;
+   
 }
 
 img.parte-azul {
     width: 99%;
+    background-color: #f17dad;
 }
 
 .imagem-perfil {
