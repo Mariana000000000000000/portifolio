@@ -4,3 +4,13 @@
     --rosa-claro: #E195AB; 
     --verde-claro:#CCDF92;
 }
+
+header {
+display: flex;
+width: 100px;
+background-color:var(--rosa) ;
+padding: 1rem;
+position: relative;
+justify-content: center;
+
+}
