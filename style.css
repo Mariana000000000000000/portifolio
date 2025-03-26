@@ -11,6 +11,17 @@ body {
     background-color: #f4f4f4;
 }
 
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
 header {
     background-color: #8b0266;
     color: white;
