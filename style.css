@@ -12,7 +12,7 @@ body {
 }
 
 .search-container {
-    display: flex;
+    display:block;
     justify-content: space-between;
     width: 400px;
     background-color: white;
