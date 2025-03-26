@@ -21,7 +21,7 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    flex-direction:column;
+    flex-direction:initial;
 }
 
 header nav ul li {
