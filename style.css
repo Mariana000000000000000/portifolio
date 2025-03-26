@@ -21,7 +21,7 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    flex-direction:initial;
+    flex-direction:inherit;
 }
 
 header nav ul li {
