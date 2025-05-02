@@ -34,7 +34,10 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    flex-direction:row;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
 }
 
 header nav ul li {
