@@ -1,1 +1,60 @@
-# portifolio
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <nav>
+            <ul>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Pesquisar...">
+            
+                </div>
+                
+                <ul>
+                    <li><a href="#sobre">Frequência</a></li>
+                    <li><a href="#projetos">Provas</a></li>
+                    <li><a href="#contato">Notas</a></li>
+                </ul>
+    
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="projetos">
+        <h2>Matérias</h2>
+        <div class="projeto">
+            <h3>Matemática</h3>
+            
+        </div>
+        <div class="projeto">
+            <h3>Biologia</h3>
+            
+        </div>
+         <div class="projeto">
+          <h3>Física</h3>
+         </div>
+
+         <div class="projeto">
+          <h3>Química</h3>
+         </div>
+
+         <div class="projeto">
+            <h3>Português</h3>
+
+         </div>
+    </section>
+
+   
+
+    <script src="scripts.js"></script>
+</body>
+</html>
