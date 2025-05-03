@@ -29,11 +29,17 @@ header {
     color: white;
     padding: 10px 0;
 }
- 
-.Menu { font-size: 24px;
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Menu {
+    font-size: 24px;
     cursor: pointer;
-
-}
+  }
+ 
 
 header nav ul {
     list-style: none;

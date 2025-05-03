@@ -1,13 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const projetos = document.querySelectorAll('.projeto');
-
-    projetos.forEach(projeto => {
-        projeto.addEventListener('mouseover', () => {
-            projeto.style.backgroundColor = '#f0f0f0';
-        });
-
-        projeto.addEventListener('mouseout', () => {
-            projeto.style.backgroundColor = 'white';
-        });
-    });
-});
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+  
+  function mostrarDisciplina(disciplina) {
+    const secoes = document.querySelectorAll(".disciplina");
+    secoes.forEach(secao => secao.style.display = "none");
+    document.getElementById(disciplina).style.display = "block";
+  }
