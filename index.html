@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    
+
     <header>
         <nav>
             <ul>
-                <div class="top-header">
-                <div class="top-header" onclick="toggleMenu()">☰</div>
-                </div>
-              <!-- Menu de navegação externa -->
-    <nav id="top-header">
-        <ul>
-          <li><a href="#" onclick="mostrarDisciplina('Atividades')">Atividades</a></li>
-          <li><a href="#" onclick="mostrarDisciplina('Avaliações')">Avaliações</a></li>
-          <li><a href="#" onclick="mostrarDisciplina('Frequência')">Frequência</a></li>
-        </ul>
-      </nav>
-  
-
-                   
                 <div class="search-container">
                     <input type="text" id="searchInput" placeholder="Pesquisar...">
-            
+
                 </div>
-                
-            
-    
+
+                <div class="top-header">
+                    <div class="Menu" onclick="toggleMenu()">☰</div>
+                </div>
+
+                <!-- Menu de navegação externa -->
+                <nav id="Menu">
+                    <ul>
+                        <li><a href="#" onclick="mostrarDisciplina('Atividades')">Atividades</a></li>
+                        <li><a href="#" onclick="mostrarDisciplina('Avaliações')">Avaliações</a></li>
+                        <li><a href="#" onclick="mostrarDisciplina('Frequência')">Frequência</a></li>
+                    </ul>
+                </nav>
+
+
+
+
+
+
+
             </ul>
         </nav>
     </header>
 
 
+<main>
+    <!-- Seções de Matemática -->
 
-    <section id="projetos">
-
-        <h2>Matemática</h2>
-        <div class="projeto">
-            <h3>Atividades:Folha de exercícios n° 5  </h3> 
-            <h3>   Avaliações: Função Afim </h3>
-             <h3> Frequência: 12 faltas de 66 aulas</h3> 
-           
-            
-        </div>
+        <section id="matematica" class="disciplina">
+            <h2>Matemática</h2>
+            <div id="atividades" class="secao">
+              <h3>Atividades</h3>
+              <p>Folha de exercícios n° 5 </p>
+            </div>
+            <div id="avaliações" class="secao">
+              <h3>Avaliações</h3>
+              <p>Função Afim</p>
+            </div>
+            <div id="frequência" class="secao">
+              <h3>Frequência</h3>
+              <p> 12 faltas de 66 aulas </p>
+            </div>
+          </section>
+    
         <h2>Biologia</h2>
         <div class="projeto">
             <h3>Atividades: Mapa Mental do Sistema Neurológico </h3>
-                <h3> Avaliações: Apresentação do Mapa Mental</h3>
+            <h3> Avaliações: Apresentação do Mapa Mental</h3>
             <h3> Frequência: 0 faltas </h3>
         </div>
-         <h2>Física</h2>
-         <div class="projeto">
-          <h3>Atividades: Resolução das questões de energia mecânica</h3>
-          <h3>Avaliações: -</h3>
-          <h3>Frequência: 24 faltas de 48 aulas </h3>
-         </div>
+        <h2>Física</h2>
+        <div class="projeto">
+            <h3>Atividades: Resolução das questões de energia mecânica</h3>
+            <h3>Avaliações: -</h3>
+            <h3>Frequência: 24 faltas de 48 aulas </h3>
+        </div>
 
-        
+
     </section>
 
-   
+
 
     <script src="scripts.js"></script>
 </body>
+
 </html>
