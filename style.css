@@ -102,13 +102,6 @@ footer {
     margin-top: 40px;
 }
 
-.footer {
-  background-color: #222;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
 .footer-container {
   max-width: 1000px;
   margin: 0 auto;
