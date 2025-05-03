@@ -3,8 +3,8 @@ function toggleMenu() {
     menu.style.display = menu.style.display === "block" ? "none" : "block";
   }
   
-  function mostrarDisciplina(disciplina) {
+  function mostrarFunção(função) {
     const secoes = document.querySelectorAll(".disciplina");
     secoes.forEach(secao => secao.style.display = "none");
-    document.getElementById(disciplina).style.display = "block";
+    document.getElementById(função).style.display = "block";
   }
